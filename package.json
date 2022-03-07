@@ -6,7 +6,8 @@
     "build": "parcel build packages/*",
     "watch": "parcel watch packages/*",
     "test": "echo \"Error: no test specified\" && exit 1",
-	"prepare": "pnpm build"
+    "docs": "fliegdoc serve",
+    "prepare": "pnpm build"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "@parcel/packager-ts": "2.3.2",
     "@parcel/transformer-typescript-types": "2.3.2",
     "@parcel/validator-typescript": "^2.3.2",
+    "fliegdoc": "^0.5.1",
     "parcel": "^2.3.2",
     "typescript": ">=3.0.0"
   },

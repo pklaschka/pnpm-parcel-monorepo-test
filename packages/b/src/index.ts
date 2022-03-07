@@ -1,3 +1,6 @@
 import {a} from '@pklaschka/monorepo-a-package';
 
-export const b = a + 'b';
+/**
+ * A concatenation of `import('@pklaschka/monorepo-a-package').a` and `'b'`
+ */
+export const b: string = a + 'b';
