@@ -68,6 +68,20 @@ pnpm watch
 Install all pacakges in the workspace root (like the development dependencies, but without the `-D` argument).
 Then, simply run `node` in the root directory, and you can `require()` all packages.
 
+### Testing packages automatically (Jest-based unit tests)
+
+In root directory:
+
+```shell
+pnpm test
+```
+
+or
+
+```shell
+pnpm exec jest
+```
+
 ### Building documentation
 
 In root directory:
@@ -94,4 +108,3 @@ pnpm publish -r
 - Find a way to use conventional commits for automatically adjusting package versions
 - Integrate ESLint
 - Integrate Prettier
-- Integrate jest-based unit testing
