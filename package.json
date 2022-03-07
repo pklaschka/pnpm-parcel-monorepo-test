@@ -1,0 +1,25 @@
+{
+  "name": "pnpm-parcel-monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build packages/*",
+    "watch": "parcel watch packages/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-default": "^2.3.2",
+    "@parcel/core": "^2.3.2",
+    "@parcel/packager-ts": "2.3.2",
+    "@parcel/transformer-typescript-types": "2.3.2",
+    "@parcel/validator-typescript": "^2.3.2",
+    "parcel": "^2.3.2",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "a": "workspace:^",
+    "b": "workspace:^"
+  }
+}
