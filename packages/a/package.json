@@ -1,5 +1,5 @@
 {
-  "name": "a",
+  "name": "@pklaschka/monorepo-a-package",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.ts",

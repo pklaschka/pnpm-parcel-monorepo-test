@@ -1,5 +1,5 @@
 {
-  "name": "b",
+  "name": "@pklaschka/monorepo-b-package",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.ts",
@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "a": "workspace:^"
+    "@pklaschka/monorepo-a-package": "workspace:^"
   }
 }

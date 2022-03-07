@@ -19,7 +19,7 @@
     "typescript": ">=3.0.0"
   },
   "dependencies": {
-    "a": "workspace:^",
-    "b": "workspace:^"
+    "@pklaschka/monorepo-a-package": "workspace:^",
+    "@pklaschka/monorepo-b-package": "workspace:^"
   }
 }

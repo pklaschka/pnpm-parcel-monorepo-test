@@ -9,13 +9,13 @@ importers:
       '@parcel/packager-ts': 2.3.2
       '@parcel/transformer-typescript-types': 2.3.2
       '@parcel/validator-typescript': ^2.3.2
-      a: workspace:^
-      b: workspace:^
+      '@pklaschka/monorepo-a-package': workspace:^
+      '@pklaschka/monorepo-b-package': workspace:^
       parcel: ^2.3.2
       typescript: '>=3.0.0'
     dependencies:
-      a: link:packages/a
-      b: link:packages/b
+      '@pklaschka/monorepo-a-package': link:packages/a
+      '@pklaschka/monorepo-b-package': link:packages/b
     devDependencies:
       '@parcel/config-default': 2.3.2_@parcel+core@2.3.2
       '@parcel/core': 2.3.2
@@ -30,9 +30,9 @@ importers:
 
   packages/b:
     specifiers:
-      a: workspace:^
+      '@pklaschka/monorepo-a-package': workspace:^
     dependencies:
-      a: link:../a
+      '@pklaschka/monorepo-a-package': link:../a
 
 packages:
 
