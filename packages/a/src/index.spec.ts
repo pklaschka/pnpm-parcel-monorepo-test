@@ -1,5 +1,5 @@
-import {a} from '.';
+import { a } from '.';
 
 it('should export "a"', () => {
-    expect(a).toBe('a');
-})
+	expect(a).toBe('a');
+});

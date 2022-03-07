@@ -3,6 +3,7 @@
 A repository for trying a JS/TS npm library monorepo setup using `pnpm` as package manager and `parcel` as a build tool.
 
 Prerequisites:
+
 - [Node v16+](https://nodejs.org/en/download/)
 - [pnpm](https://pnpm.io/installation)
 

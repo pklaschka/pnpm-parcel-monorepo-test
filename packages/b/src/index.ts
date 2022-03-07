@@ -1,4 +1,4 @@
-import {a} from '@pklaschka/monorepo-a-package';
+import { a } from '@pklaschka/monorepo-a-package';
 
 /**
  * A concatenation of `import('@pklaschka/monorepo-a-package').a` and `'b'`

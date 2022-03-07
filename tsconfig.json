@@ -1,13 +1,11 @@
 {
-  "exclude": [
-	"node_modules"
-  ],
-  "references": [
-	{
-	  "path": "packages/a"
-	},
-	{
-	  "path": "packages/b"
-	}
-  ]
+	"exclude": ["node_modules"],
+	"references": [
+		{
+			"path": "packages/a"
+		},
+		{
+			"path": "packages/b"
+		}
+	]
 }

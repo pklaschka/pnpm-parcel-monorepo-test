@@ -1,14 +1,14 @@
 {
-  "name": "@pklaschka/monorepo-a-package",
-  "version": "1.0.0",
-  "description": "",
-  "source": "src/index.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "@pklaschka/monorepo-a-package",
+	"version": "1.0.0",
+	"description": "",
+	"source": "src/index.ts",
+	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
 }

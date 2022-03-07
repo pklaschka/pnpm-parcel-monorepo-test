@@ -1,17 +1,17 @@
 {
-  "name": "@pklaschka/monorepo-b-package",
-  "version": "1.0.0",
-  "description": "",
-  "source": "src/index.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@pklaschka/monorepo-a-package": "workspace:^"
-  }
+	"name": "@pklaschka/monorepo-b-package",
+	"version": "1.0.0",
+	"description": "",
+	"source": "src/index.ts",
+	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@pklaschka/monorepo-a-package": "workspace:^"
+	}
 }
