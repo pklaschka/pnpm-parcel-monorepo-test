@@ -15,6 +15,7 @@ This is an overview of the most important components of this monorepo's tech sta
 - **[Parcel](https://parceljs.org/)** -- build tool
 - **[Jest](https://jestjs.io/) / [`ts-jest`](https://kulshekhar.github.io/ts-jest/)** -- Unit testing framework
 - **[TypeScript / `tsc`](https://www.typescriptlang.org/)** -- TypeScript type checking
+- **[TypeScript ESLint](https://typescript-eslint.io/docs/linting/)** -- linting
 - **[Prettier](https://prettier.io/)** -- code formatter
 - **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
 - **[GitHub Actions](https://docs.github.com/en/actions)** -- CI pipeline
@@ -97,6 +98,14 @@ pnpm exec jest
 
 ### Linting and Formatting
 
+#### Linting with ESLint
+
+In root directory:
+
+```shell
+pnpm lint
+```
+
 #### Fix styling issues
 
 In root directory:
@@ -149,4 +158,3 @@ pnpm publish -r
 ## TODO
 
 - Find a way to use conventional commits for automatically adjusting package versions
-- Integrate ESLint
