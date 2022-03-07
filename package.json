@@ -6,7 +6,7 @@
     "build": "parcel build packages/*",
     "watch": "parcel watch packages/*",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "fliegdoc serve",
+    "docs": "fliegdoc build",
     "prepare": "pnpm build"
   },
   "author": "",

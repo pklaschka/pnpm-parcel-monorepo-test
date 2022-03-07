@@ -66,6 +66,14 @@ pnpm watch
 Install all pacakges in the workspace root (like the development dependencies, but without the `-D` argument).
 Then, simply run `node` in the root directory, and you can `require()` all packages.
 
+### Building documentation
+
+In root directory:
+
+```shell
+pnpm docs
+```
+
 ### Publishing packages
 
 **After adjusting package versions (TODO: find a way to automate this):**
