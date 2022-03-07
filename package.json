@@ -8,7 +8,8 @@
 		"test": "jest",
 		"docs": "fliegdoc build",
 		"prepare": "pnpm build",
-		"prettier:fix": "prettier --write ."
+		"prettier:fix": "prettier --write .",
+		"prettier:check": "prettier --check ."
 	},
 	"author": "",
 	"license": "ISC",
