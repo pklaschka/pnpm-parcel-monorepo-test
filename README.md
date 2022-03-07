@@ -15,7 +15,7 @@ This is an overview of the most important components of this monorepo's tech sta
 - **[Parcel](https://parceljs.org/)** -- build tool
 - **[Jest](https://jestjs.io/) / [`ts-jest`](https://kulshekhar.github.io/ts-jest/)** -- Unit testing framework
 - **[TypeScript / `tsc`](https://www.typescriptlang.org/)** -- TypeScript type checking
-- **[Prettier](https://prettier.io/)** - code formatter
+- **[Prettier](https://prettier.io/)** -- code formatter
 - **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
 
 ## Usage
