@@ -94,6 +94,8 @@ In root directory:
 pnpm docs
 ```
 
+This builds a static documentation page to `/docs` using [`fliegdoc`](https://github.com/fliegwerk/fliegdoc).
+
 ### Publishing packages
 
 **After adjusting package versions (TODO: find a way to automate this):**
