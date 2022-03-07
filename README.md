@@ -16,6 +16,8 @@ pnpm install
 - Alias: `pnpm i`
 - `npm ci`-equivalent: `pnpm i --frozen-lockfile` (automatically true in CI environment)
 
+**You can also run `pnpm install` when anything about your dependencies becomes out of date to fix it back up.**
+
 ### Installing dependencies to packages
 
 Run commands in the package's directory:
