@@ -19,6 +19,7 @@ This is an overview of the most important components of this monorepo's tech sta
 - **[Prettier](https://prettier.io/)** -- code formatter
 - **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
 - **[GitHub Actions](https://docs.github.com/en/actions)** -- CI pipeline
+- **[Renovate](https://renovatebot.com/)** -- Dependency Update Management
 
 ## Usage
 
