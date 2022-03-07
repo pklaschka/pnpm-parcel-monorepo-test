@@ -1,15 +1,13 @@
 {
-  "compilerOptions": {
-	"module": "commonjs",
-	"target": "es5",
-	"strict": true,
-	"sourceMap": true
-  },
   "exclude": [
 	"node_modules"
   ],
-    "references": [
-        "packages/a",
-	  "packages/b"
-    ]
+  "references": [
+	{
+	  "path": "packages/a"
+	},
+	{
+	  "path": "packages/b"
+	}
+  ]
 }
