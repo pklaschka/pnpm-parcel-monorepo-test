@@ -23,17 +23,19 @@ pnpm install
 
 **You can also run `pnpm install` when anything about your dependencies becomes out of date to fix it back up.**
 
-### Installing dependencies to packages
+### Dependency Management
+
+#### Installing dependencies to packages
 
 Run commands in the package's directory:
 
-#### External dependencies
+##### External dependencies
 
 ```shell
 pnpm add [-D] @fliegwerk/logsemts
 ```
 
-#### Other packages from monorepo
+##### Other packages from monorepo
 
 ```shell
 pnpm add [-D] --workspace [package-name]
@@ -42,7 +44,7 @@ pnpm add [-D] --workspace [package-name]
 - `--workspace` ensures that it is installed from the workspace directory.
 - by default installs as `workspace:^[version]`. I recommend adjusting this to `workspace:^` afterwards to make it an easier workflow for updates (this "version specifier" gets replaced automatically with the correct version on publish)
 
-### Installing development dependencies to root
+#### Installing development dependencies to root
 
 In root directory:
 
@@ -52,15 +54,9 @@ pnpm add -D -w @parcel/core
 
 - `-w` "enables" running this in the workspace root (otherwise forbidden to ensure that you don't accidentally install it in the workspace root)
 
-### Building packages
+### During Development
 
-In root directory:
-
-```shell
-pnpm build
-```
-
-### Development flow (watching for changes and re-building)
+#### Development flow (watching for changes and re-building)
 
 In root directory:
 
@@ -68,12 +64,12 @@ In root directory:
 pnpm watch
 ```
 
-### Testing packages manually (REPL)
+#### Testing packages manually (REPL)
 
 Install all pacakges in the workspace root (like the development dependencies, but without the `-D` argument).
 Then, simply run `node` in the root directory, and you can `require()` all packages.
 
-### Testing packages automatically (Jest-based unit tests)
+#### Testing packages automatically (Jest-based unit tests)
 
 In root directory:
 
@@ -87,7 +83,35 @@ or
 pnpm exec jest
 ```
 
-### Building documentation
+### Linting and Formatting
+
+#### Fix styling issues
+
+In root directory:
+
+```shell
+pnpm prettier:fix
+```
+
+#### Check for formatting issues
+
+In root directory:
+
+```shell
+pnpm prettier:check
+```
+
+### Building and publishing
+
+#### Building packages
+
+In root directory:
+
+```shell
+pnpm build
+```
+
+#### Building documentation
 
 In root directory:
 
@@ -97,23 +121,7 @@ pnpm docs
 
 This builds a static documentation page to `/docs` using [`fliegdoc`](https://github.com/fliegwerk/fliegdoc).
 
-### Fix styling issues
-
-In root directory:
-
-```shell
-pnpm prettier:fix
-```
-
-### Check for formatting issues
-
-In root directory:
-
-```shell
-pnpm prettier:check
-```
-
-### Publishing packages
+#### Publishing packages
 
 **After adjusting package versions (TODO: find a way to automate this):**
 
