@@ -17,6 +17,7 @@ This is an overview of the most important components of this monorepo's tech sta
 - **[TypeScript / `tsc`](https://www.typescriptlang.org/)** -- TypeScript type checking
 - **[Prettier](https://prettier.io/)** -- code formatter
 - **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
+- **[GitHub Actions](https://docs.github.com/en/actions)** -- CI pipeline
 
 ## Usage
 
