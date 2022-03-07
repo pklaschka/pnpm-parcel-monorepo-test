@@ -9,7 +9,8 @@
 		"docs": "fliegdoc build",
 		"prepare": "pnpm build",
 		"prettier:fix": "prettier --write .",
-		"prettier:check": "prettier --check ."
+		"prettier:check": "prettier --check .",
+		"lint": "eslint --ext '.ts,.js,.tsx' --no-error-on-unmatched-pattern packages"
 	},
 	"author": "",
 	"license": "ISC",
@@ -20,6 +21,10 @@
 		"@parcel/transformer-typescript-types": "2.3.2",
 		"@parcel/validator-typescript": "^2.3.2",
 		"@types/jest": "^27.4.1",
+		"@typescript-eslint/eslint-plugin": "^5.13.0",
+		"@typescript-eslint/parser": "^5.13.0",
+		"eslint": "^8.10.0",
+		"eslint-config-prettier": "^8.5.0",
 		"fliegdoc": "^0.5.1",
 		"jest": "^27.5.1",
 		"parcel": "^2.3.2",
