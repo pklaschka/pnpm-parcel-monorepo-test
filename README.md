@@ -14,7 +14,7 @@ This is an overview of the most important components of this monorepo's tech sta
 - **[pnpm](https://pnpm.io/)** -- package and monorepo workspace manager
 - **[Parcel](https://parceljs.org/)** -- build tool
 - **[Jest](https://jestjs.io/) / [`ts-jest`](https://kulshekhar.github.io/ts-jest/)** -- Unit testing framework
-- **[TypeScript / tsc](https://www.typescriptlang.org/)** -- TypeScript type checking
+- **[TypeScript / `tsc`](https://www.typescriptlang.org/)** -- TypeScript type checking
 - **[Prettier](https://prettier.io/)** - code formatter
 - **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
 
