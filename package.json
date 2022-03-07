@@ -1,31 +1,33 @@
 {
-  "name": "pnpm-parcel-monorepo-test",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "build": "parcel build packages/*",
-    "watch": "parcel watch packages/*",
-    "test": "jest",
-    "docs": "fliegdoc build",
-    "prepare": "pnpm build"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@parcel/config-default": "^2.3.2",
-    "@parcel/core": "^2.3.2",
-    "@parcel/packager-ts": "2.3.2",
-    "@parcel/transformer-typescript-types": "2.3.2",
-    "@parcel/validator-typescript": "^2.3.2",
-    "@types/jest": "^27.4.1",
-    "fliegdoc": "^0.5.1",
-    "jest": "^27.5.1",
-    "parcel": "^2.3.2",
-    "ts-jest": "^27.1.3",
-    "typescript": "^4.6.2"
-  },
-  "dependencies": {
-    "@pklaschka/monorepo-a-package": "workspace:^",
-    "@pklaschka/monorepo-b-package": "workspace:^"
-  }
+	"name": "pnpm-parcel-monorepo-test",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "parcel build packages/*",
+		"watch": "parcel watch packages/*",
+		"test": "jest",
+		"docs": "fliegdoc build",
+		"prepare": "pnpm build",
+		"prettier:fix": "prettier --write ."
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/config-default": "^2.3.2",
+		"@parcel/core": "^2.3.2",
+		"@parcel/packager-ts": "2.3.2",
+		"@parcel/transformer-typescript-types": "2.3.2",
+		"@parcel/validator-typescript": "^2.3.2",
+		"@types/jest": "^27.4.1",
+		"fliegdoc": "^0.5.1",
+		"jest": "^27.5.1",
+		"parcel": "^2.3.2",
+		"prettier": "^2.5.1",
+		"ts-jest": "^27.1.3",
+		"typescript": "^4.6.2"
+	},
+	"dependencies": {
+		"@pklaschka/monorepo-a-package": "workspace:^",
+		"@pklaschka/monorepo-b-package": "workspace:^"
+	}
 }
