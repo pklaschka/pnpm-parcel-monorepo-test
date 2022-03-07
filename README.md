@@ -97,6 +97,22 @@ pnpm docs
 
 This builds a static documentation page to `/docs` using [`fliegdoc`](https://github.com/fliegwerk/fliegdoc).
 
+### Fix styling issues
+
+In root directory:
+
+```shell
+pnpm prettier:fix
+```
+
+### Check for formatting issues
+
+In root directory:
+
+```shell
+pnpm prettier:check
+```
+
 ### Publishing packages
 
 **After adjusting package versions (TODO: find a way to automate this):**
@@ -114,4 +130,3 @@ pnpm publish -r
 
 - Find a way to use conventional commits for automatically adjusting package versions
 - Integrate ESLint
-- Integrate Prettier
