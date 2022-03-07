@@ -2,10 +2,21 @@
 
 A repository for trying a JS/TS npm library monorepo setup using `pnpm` as package manager and `parcel` as a build tool.
 
-Prerequisites:
+Development prerequisites:
 
 - [Node v16+](https://nodejs.org/en/download/)
 - [pnpm](https://pnpm.io/installation)
+
+## Tech Stack
+
+This is an overview of the most important components of this monorepo's tech stack
+
+- **[pnpm](https://pnpm.io/)** -- package and monorepo workspace manager
+- **[Parcel](https://parceljs.org/)** -- build tool
+- **[Jest](https://jestjs.io/) / [`ts-jest`](https://kulshekhar.github.io/ts-jest/)** -- Unit testing framework
+- **[TypeScript / tsc](https://www.typescriptlang.org/)** -- TypeScript type checking
+- **[Prettier](https://prettier.io/)** - code formatter
+- **[fliegdoc](https://fliegwerk.github.io/fliegdoc/)** -- documentation generator
 
 ## Usage
 
