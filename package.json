@@ -5,7 +5,8 @@
   "scripts": {
     "build": "parcel build packages/*",
     "watch": "parcel watch packages/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"prepare": "pnpm build"
   },
   "author": "",
   "license": "ISC",
