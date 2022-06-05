@@ -23,7 +23,7 @@
 		"@types/jest": "28.1.1",
 		"@typescript-eslint/eslint-plugin": "5.16.0",
 		"@typescript-eslint/parser": "5.16.0",
-		"eslint": "8.12.0",
+		"eslint": "8.17.0",
 		"eslint-config-prettier": "8.5.0",
 		"fliegdoc": "0.5.1",
 		"jest": "28.1.0",
