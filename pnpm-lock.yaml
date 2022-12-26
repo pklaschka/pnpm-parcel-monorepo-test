@@ -19,7 +19,7 @@ importers:
       fliegdoc: 0.5.2
       jest: 29.3.1
       parcel: 2.8.2
-      prettier: 2.7.1
+      prettier: 2.8.1
       ts-jest: 29.0.3
       typescript: 4.9.4
     dependencies:
@@ -39,7 +39,7 @@ importers:
       fliegdoc: 0.5.2
       jest: 29.3.1
       parcel: 2.8.2
-      prettier: 2.7.1
+      prettier: 2.8.1
       ts-jest: 29.0.3_jest@29.3.1+typescript@4.9.4
       typescript: 4.9.4
 
@@ -4138,8 +4138,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
