@@ -11,7 +11,7 @@ importers:
       '@parcel/validator-typescript': 2.8.3
       '@pklaschka/monorepo-a-package': workspace:^
       '@pklaschka/monorepo-b-package': workspace:^
-      '@types/jest': 29.2.5
+      '@types/jest': 29.2.6
       '@typescript-eslint/eslint-plugin': 5.48.2
       '@typescript-eslint/parser': 5.48.2
       eslint: 8.32.0
@@ -31,7 +31,7 @@ importers:
       '@parcel/packager-ts': 2.8.3_@parcel+core@2.8.3
       '@parcel/transformer-typescript-types': 2.8.3_a05c343623610b9a1a6f078678e7eb85
       '@parcel/validator-typescript': 2.8.3_a05c343623610b9a1a6f078678e7eb85
-      '@types/jest': 29.2.5
+      '@types/jest': 29.2.6
       '@typescript-eslint/eslint-plugin': 5.48.2_101cdf21de94ccf8fd79d46613915786
       '@typescript-eslint/parser': 5.48.2_eslint@8.32.0+typescript@4.9.4
       eslint: 8.32.0
@@ -1579,8 +1579,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.2.5:
-    resolution: {integrity: sha512-H2cSxkKgVmqNHXP7TC2L/WUorrZu8ZigyRywfVzv6EyBlxj39n4C00hjXYQWsbwqgElaj/CiAeSRmk5GoaKTgw==}
+  /@types/jest/29.2.6:
+    resolution: {integrity: sha512-XEUC/Tgw3uMh6Ho8GkUtQ2lPhY5Fmgyp3TdlkTJs1W9VgNxs+Ow/x3Elh8lHQKqCbZL0AubQuqWjHVT033Hhrw==}
     dependencies:
       expect: 29.3.1
       pretty-format: 29.3.1
