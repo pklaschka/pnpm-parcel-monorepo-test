@@ -30,7 +30,7 @@
 		"parcel": "2.9.3",
 		"prettier": "3.0.3",
 		"ts-jest": "29.1.1",
-		"typescript": "4.9.4"
+		"typescript": "4.9.5"
 	},
 	"dependencies": {
 		"@pklaschka/monorepo-a-package": "workspace:^",
